@@ -1,26 +1,116 @@
-@import "tailwindcss";
-
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+    color-scheme: dark;
+    --page-bg: #0d1117;
+    --surface: #161b22;
+    --border: #303945;
+    --text: #e6edf3;
+    --muted: #9aa7b5;
+    --accent: #ffb84d;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    background-color: var(--page-bg);
+    color: var(--text);
+}
+
+.navbar {
+    background-color: var(--surface) !important;
+    border-bottom: 1px solid var(--border);
+}
+
+.navbar-superior .container-fluid {
+    position: relative;
+    min-height: 4.5rem;
+    justify-content: center;
+}
+
+.navbar-superior .navbar-brand {
+    position: absolute;
+    left: 0.75rem;
+}
+
+.navbar-superior .navbar-search {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: min(50%, 32rem);
+    align-items: center;
+    gap: 0.5rem;
+    transform: translate(-50%, -50%);
+}
+
+.navbar-superior .navbar-search .form-control {
+    min-width: 0;
+    height: 2.75rem;
+    margin: 0 !important;
+}
+
+.navbar-superior .navbar-search .btn {
+    flex-shrink: 0;
+    min-height: 2.75rem;
+}
+
+.avatar {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.link-none {
+    text-decoration: none;
+    color: var(--text);
+}
+
+.link-none:hover {
+    text-decoration: none;
+    color: var(--accent);
+}
+
+.precio-descuento {
+    font-size: 0.9rem;
+    color: var(--muted);
+}
+
+.precio-nuevo {
+    color: var(--accent);
+    font-size: 1.4rem;
+}
+
+.card {
+    --bs-card-bg: var(--surface);
+    --bs-card-color: var(--text);
+    --bs-card-border-color: var(--border);
+}
+
+.card-producto {
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.card-producto:hover {
+    box-shadow: 0 8px 24px rgb(0 0 0 / 35%);
+    transform: translateY(-3px);
+}
+
+.form-control {
+    background-color: var(--page-bg);
+    border-color: var(--border);
+    color: var(--text);
+}
+
+.form-control::placeholder {
+    color: var(--muted);
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+    content: "|";
+    color: var(--muted);
+    padding: 0 8px;
+}
+
+.breadcrumb-item + .breadcrumb-item:last-child::before {
+    content: ">";
+    color: var(--muted);
+    padding: 0 8px;
 }

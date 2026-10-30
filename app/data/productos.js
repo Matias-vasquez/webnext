@@ -1,0 +1,222 @@
+export const productos = [
+    {
+        id: 1,
+        imagen: "https://static.wikia.nocookie.net/zelda_gamepedia_en/images/0/06/BotW_English_Logo.png/revision/latest?cb=20170318074125",
+        nombre: "The Legend of Zelda",
+        categoria: "Aventura",
+        descripcion: "Juego de acción y aventura con mundo abierto.",
+        precio_descuento: 6999,
+        precio_nuevo: 5999,
+        stock: 19,
+        link: "/productos/producto1.html"
+    },
+    {
+        id: 2,
+        imagen: "https://upload.wikimedia.org/wikipedia/en/8/8d/Super_Mario_Odyssey.jpg",
+        nombre: "Super Mario Odyssey",
+        categoria: "Plataforma",
+        descripcion: "Aventura de plataformas 3D en varios mundos.",
+        precio_descuento: 5999,
+        precio_nuevo: 4999,
+        stock: 17,
+        link: "/productos/producto1.html"
+    },
+    {
+        id: 3,
+        imagen: "https://store-images.s-microsoft.com/image/apps.17382.13510798885735219.9735d495-578c-4a4c-b892-3eb3a780b3a0.d3792486-cf98-40c0-a2c1-d6443f0e2b70?q=90&w=177&h=265",
+        nombre: "Minecraft",
+        categoria: "Sandbox",
+        descripcion: "Juego de construcción y aventuras en mundo abierto.",
+        precio_descuento: 2999,
+        precio_nuevo: 2695,
+        stock: 13,
+        link: "/productos/producto1.html"
+    },
+    {
+        id: 4,
+        imagen: "https://i.3djuegos.com/juegos/8298/fortnite/fotos/ficha/fortnite-5154590.webp",
+        nombre: "Fortnite",
+        categoria: "Battle Royale",
+        descripcion: "Juego multijugador masivo en línea de supervivencia.",
+        precio_descuento: 999,
+        precio_nuevo: 0,
+        stock: 10,
+        link: "/productos/producto1.html"
+    },
+    {
+        id: 5,
+        imagen: "https://static.wikia.nocookie.net/overwatch/images/c/ca/Overwatch_Portada.jpg/revision/latest?cb=20160523174229&path-prefix=es",
+        nombre: "Overwatch",
+        categoria: "Shooter",
+        descripcion: "Juego de disparos multijugador en equipo.",
+        precio_descuento: 2999,
+        precio_nuevo: 1999,
+        stock: 18,
+        link: "/productos/producto1.html"
+    },
+    {
+        id: 6,
+        imagen: "https://upload.wikimedia.org/wikipedia/en/4/44/Red_Dead_Redemption_II.jpg",
+        nombre: "Red Dead Redemption 2",
+        categoria: "Aventura",
+        descripcion: "Juego de acción y aventuras en el lejano oeste.",
+        precio_descuento: 6999,
+        precio_nuevo: 5999,
+        stock: 20,
+        link: "/productos/producto1.html"
+    },
+    {
+        id: 7,
+        imagen: "https://upload.wikimedia.org/wikipedia/en/9/9a/Among_Us_cover_art.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original",
+        nombre: "Among Us",
+        categoria: "Misterio",
+        descripcion: "Juego multijugador de deducción social.",
+        precio_descuento: 699,
+        precio_nuevo: 499,
+        stock: 30,
+        link: "/productos/producto1.html"
+    },
+    {
+        id: 8,
+        imagen: "https://upload.wikimedia.org/wikipedia/en/0/0c/Witcher_3_cover_art.jpg",
+        nombre: "The Witcher 3",
+        categoria: "RPG",
+        descripcion: "Juego de rol de acción en un mundo abierto.",
+        precio_descuento: 4999,
+        precio_nuevo: 3999,
+        stock: 12,
+        link: "/productos/producto1.html"
+    },
+    {
+        id: 9,
+        imagen: "https://juegosdigitaleschile.com/files/images/productos/1637887885-animal-crossing-new-horizons.jpg",
+        nombre: "Animal Crossing",
+        categoria: "Simulación",
+        descripcion: "Juego de simulación de vida en una isla.",
+        precio_descuento: 6999,
+        precio_nuevo: 5999,
+        stock: 7,
+        link: "/productos/producto1.html"
+    },
+    {
+        id: 10,
+        imagen: "https://store-images.s-microsoft.com/image/apps.61500.13739535057760905.ee63b998-143e-4256-bd0e-3e78d667ab11.31188761-50b5-4ec9-91f4-ec4f1a8b5503?q=90&w=177&h=265",
+        nombre: "Call of Duty: Warzone",
+        categoria: "Shooter",
+        descripcion: "Juego de disparos y estrategia multijugador.",
+        precio_descuento: 1999,
+        precio_nuevo: 0,
+        stock: 5,
+        link: "/productos/producto1.html"
+    },
+    {
+        id: 11,
+        imagen: "https://upload.wikimedia.org/wikipedia/en/d/de/Hollow_Knight_2026_cover_art.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original",
+        nombre: "Hollow Knight",
+        categoria: "Plataforma",
+        descripcion: "Juego de plataformas y aventuras en 2D.",
+        precio_descuento: 1999,
+        precio_nuevo: 1499,
+        stock: 24,
+        link: "/productos/producto1.html"
+    },
+    {
+        id: 12,
+        imagen: "https://juegosdigitaleschile.com/files/images/productos/1750972313-dark-souls-iii-deluxe-edition-ps4-0.webp",
+        nombre: "Dark Souls III",
+        categoria: "RPG",
+        descripcion: "Juego de rol de acción en un entorno oscuro.",
+        precio_descuento: 6999,
+        precio_nuevo: 5999,
+        stock: 14,
+        link: "/productos/producto1.html"
+    },  
+    {
+        id: 13,
+        imagen: "https://juegosdigitaleschile.com/files/images/productos/1622482628-fifa-21-ps4.jpg",
+        nombre: "FIFA 21",
+        categoria: "Deportes",
+        descripcion: "Simulador de fútbol con modos de juego realistas.",
+        precio_descuento: 5999,
+        precio_nuevo: 4999,
+        stock: 2,
+        link: "/productos/producto1.html"
+    },
+    {
+        id: 14,
+        imagen: "https://store-images.s-microsoft.com/image/apps.36292.14189292593912942.341610e6-d1ca-4699-8cb5-bf6e900e0cee.d45e0b59-274f-4d6d-81af-b6ce2e38ab0e?q=90&w=177&h=265",
+        nombre: "Mortal Kombat 11",
+        categoria: "Lucha",
+        descripcion: "Juego de lucha con gráficos avanzados.",
+        precio_descuento: 6999,
+        precio_nuevo: 5999,
+        stock: 10,
+        link: "/productos/producto1.html"
+    },
+    {
+        id: 15,
+        imagen: "https://store-images.s-microsoft.com/image/apps.26140.64006389358085797.f9955ebe-8d9d-4aae-8f0f-93fd09a19dc3.c278e048-c6b6-407a-96b3-53f84d2c0ed2?q=90&w=177&h=265",
+        nombre: "The Sims 4",
+        categoria: "Simulación",
+        descripcion: "Juego de simulación de vida con creación de personajes.",
+        precio_descuento: 4999,
+        precio_nuevo: 3999,
+        stock: 12,
+        link: "/productos/producto1.html"
+    },
+    {
+        id: 16,
+        imagen: "https://i0.wp.com/tremg.info/wp-content/uploads/2020/11/assassins-creed-valhalla.jpg?ssl=1",
+        nombre: "Assassin's Creed Valhalla",
+        categoria: "Aventura",
+        descripcion: "Juego de acción y aventuras ambientado en la era vikinga.",
+        precio_descuento: 6999,
+        precio_nuevo: 5999,
+        stock: 100,
+        link: "/productos/producto1.html"
+    },
+    {
+        id: 17,
+        imagen: "https://upload.wikimedia.org/wikipedia/en/e/eb/Cuphead_%28artwork%29.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original",
+        nombre: "Cuphead",
+        categoria: "Plataforma",
+        descripcion: "Juego de plataformas inspirado en dibujos animados.",
+        precio_descuento: 2999,
+        precio_nuevo: 1999,
+        stock: 3,
+        link: "/productos/producto1.html"
+    },
+    {
+        id: 18,
+        imagen: "https://cdn.kobo.com/book-images/06034488-6e2e-4487-a343-9d82013df601/353/569/90/False/star-wars-jedi-fallen-order-strategy-guide.jpg",
+        nombre: "Star Wars Jedi: Fallen Order",
+        categoria: "Aventura",
+        descripcion: "Juego de acción y aventuras en el universo Star Wars.",
+        precio_descuento: 4999,
+        precio_nuevo: 3999,
+        stock: 12,
+        link: "/productos/producto1.html"
+    },
+    {
+        id: 19,
+        imagen: "https://img.asmedia.epimg.net/resizer/v2/OWB4JPZROFKERI2UGZCXBH6XPA.jpg?auth=c6fde6b2ee7566e93b59b81f078e4214cb9cf1f6598cf4a50a950a050cddec34&width=760&height=428&smart=true",
+        nombre: "Ghost of Tsushima",
+        categoria: "Aventura",
+        descripcion: "Juego de acción y aventuras ambientado en el Japón feudal.",
+        precio_descuento: 6999,
+        precio_nuevo: 5999,
+        stock: 10,
+        link: "/productos/producto1.html"
+    },
+    {
+        id: 20,
+        imagen: "https://images.squarespace-cdn.com/content/v1/5355c418e4b0753f93e1fb25/1608001698715-ZS95D0PK5VS9AN5WR8Q0/340.jpg?format=2500w",
+        nombre: "Cyberpunk 2077",
+        categoria: "RPG",
+        descripcion: "Juego de rol y acción en un futuro distópico.",
+        precio_descuento: 6999,
+        precio_nuevo: 5999,
+        stock: 5,
+        link: "/productos/producto1.html"
+    }
+];
